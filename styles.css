@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: purple;
+  text-align: center;
+  font-family: "Century Gothic";
+  } 
+.container{
+  align-content: center;
+  background: gold;
+  border-radius: 50px;
+  max-width: 2000px;
+}
+#banner{
+  height: 750px;
+  max-width: 550px;
+  background-image: url(images/kobe.jpg);
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  margin: 10px 350px;
+}
+#nba{
+  background: purple;
+  padding: 5px 10px; 
+  border-style: solid;
+  border: 3px solid white;
+  margin-bottom: 10px;
+}
+#AS{
+  background-image: url(images/mamba.jpg);
+  background-repeat: no-repeat;
+  padding: 5px 10px; 
+  border: 3px solid white;
+  border-radius: 3px;
+}
+a{
+  color: black;
+  text-decoration: underline;
+}
+ul{
+  display: inline-block;
+  text-align: left;
+}
+.quote{
+  font-size: 18px;
+  font-family: Lucida Calligraphy;
+}
